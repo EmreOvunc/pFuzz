@@ -261,3 +261,12 @@ sendit(myreq)
 | To change a header                 |reqparser.py/HTTPReq | OBJECT.changeheader()       |  headerName,newHeaderName |
 | To get a payload from the file     |exparse.py           | getpayloads()               | sheetName,columnName     |
 | To write a log info/debug/warning  |waflogger.py         | loginfo/logdebug/logwarn()  | logMessage               |
+
+
+### What WAFs did we bypass?
+- FortiWeb
+- Cloudflare
+- Sucuri
+- Akamai
+- Imperva
+- F5 WAF
